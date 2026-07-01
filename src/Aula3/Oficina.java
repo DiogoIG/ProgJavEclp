@@ -26,6 +26,10 @@ public class Oficina {
 		System.out.println("Divisão de: "+ v1 + "/" + v2 + " = " + divisao);
 		System.out.println("Resto de: "+ v1 + "%" + v2 + " = " + resto);
 		System.out.println("Mudança de saida");
+		System.out.printf("Total: R$ %.2f%n", soma);
+		System.out.printf("Total: R$ %.2f%n", subtracao);
+		System.out.printf("Total: R$ %.2f%n", multiplicacao);
+		System.out.printf("Total: R$ %.2f%n", divisao);
 		System.out.printf("Total: R$ %.2f%n", resto);
 		
 		
