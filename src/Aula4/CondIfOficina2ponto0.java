@@ -17,6 +17,17 @@ public class CondIfOficina2ponto0 {
 		System.out.println("Digite a nota do 4º bimestre: ");
 		bim4 = input.nextDouble();
 		
+		media = (bim1+bim2+bim3+bim4)/4;
+		
+		if (media >= 7) {
+			System.out.println("Aprovado");
+		}else if(media >=4){
+			System.out.println("Recuperação");
+		}else {
+			System.out.println("Reprovado");
+			
+		}
+		
 		
 		
 	}
