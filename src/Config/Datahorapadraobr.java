@@ -11,7 +11,7 @@ public class Datahorapadraobr {
 		// 1º metodo da class dataformatada
 		
 		LocalDate data = LocalDate.now();
-		DateTimeFormatter dataformatada = DateTimeFormatter.ofPattern("dd//MM/yyyy");
+		DateTimeFormatter dataformatada = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		String databr = data.format(dataformatada);
 		
 		return "Data: "+ databr;
@@ -30,10 +30,10 @@ public class Datahorapadraobr {
 	public String datahoraFormatada() {
 		LocalDateTime datahora = LocalDateTime.now();
 		DateTimeFormatter datahoraformatada = DateTimeFormatter.ofPattern("dd/MM/yyyy  HH:mm:ss");
+		String datahorabr = datahora.format(datahoraformatada);
 		
 		
-		
-		return "Data hora: "+ datahoraformatada;
+		return "Data hora: "+ datahorabr;
 	}
 	
 	
